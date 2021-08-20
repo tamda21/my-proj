@@ -6,11 +6,17 @@
             consectetur nulla corporis? Magnam, mollitia deleniti laborum
             officiis nisi autem sapiente?
         </p>
+        <MyAge />
     </div>
 </template>
 
 <script>
+import MyAge from "@/components/MyAge.vue";
+
 export default {
     name: "help",
+    components: {
+        MyAge,
+    },
 };
 </script>
